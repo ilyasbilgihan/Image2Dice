@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#result {
+  width: 50vw;
+  display: grid;
+}
+#result img {
+  display: block;
+}
+
+.prev {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.prev > * {
+  width: 100%;
+}
