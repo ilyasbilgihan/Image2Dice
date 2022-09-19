@@ -8,6 +8,31 @@ Choose your image from your PC then select a "Horizontal Dice Count" from the li
 
 <br>
 
+After the calculation is complete, you can download a JSON file that shows which dice you need to place where. (Top to bottom, left to right)
+
+<details>
+    <summary>Example JSON file</summary>
+    <pre>{
+  1: [        // 1st row
+    "1: x",
+    "2: y",
+    "3: z"
+  ],
+  2: [        // 2nd row
+    "1: x",
+    "2: y",
+    "3: z"
+  ],
+  3: [        // 3rd row
+    "1: x",
+    "2: y",
+    "3: z"
+  ]
+}</pre>
+</details>
+
+<br>
+
 ## Dice Used
 <div style="display: flex">
   <img src="/dice/1.png" width="50" height="50" alt="1">
@@ -21,14 +46,23 @@ Choose your image from your PC then select a "Horizontal Dice Count" from the li
 <br>
 
 ## Examples
-#### Mustafa Kemal Atatürk
-![Mustafa Kemal Atatürk](/example/mka.png)
+<details open>
+    <summary>Mustafa Kemal Atatürk</summary>
+    <br>
+    <img src="/example/mka.png" alt="Mustafa Kemal Atatürk">
+</details>
 
-#### Paul Walker
-![Paul Walker](/example/pw.png)
+<details>
+    <summary>Paul Walker</summary>
+    <br>
+    <img src="/example/pw.png" alt="Paul Walker">
+</details>
 
-#### John Wick
-![John Wick](/example/jw.png)
+<details>
+    <summary>Keanu Reeves</summary>
+    <br>
+    <img src="/example/jw.png" alt="Keanu Reeves">
+</details>
 
 <br>
 
