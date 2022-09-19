@@ -10,23 +10,22 @@
 <body>
   
   <div>
+    <input type="file" onChange="openModal(window.URL.createObjectURL(this.files[0]))">
+    <br>
     <label for="">
-      <span>Horizontal Dice Count</span>
-      <input type="number" id="diceCount" value="80">
+      <span>Horizontal Dice Count: </span>
+      <select id="possibleDiceCounts">
+        <option value="">No Option Available</option>
+      </select>
     </label>
+    <br>
+    <button onClick="startProcess()">Calculate</button>
+    <br>
     <div class="info">
       <div id="verticalDiceCount"></div>
       <div id="totalDiceCount"></div>
       <a class="download" href=""></a>
     </div>
-    <br>
-    <input type="file" onChange="openModal(window.URL.createObjectURL(this.files[0]))">
-    <br>
-    <br>
-    <h2>Examples</h2>
-    <button onClick="setExample(1)">John Wick</button>
-    <button onClick="setExample(2)">Paul Walker</button>
-    <button onClick="setExample(3)">Mustafa Kemal</button>
     <div class="prev">
       <img src="" alt="">
       <canvas id="grayscale"></canvas>
